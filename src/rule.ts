@@ -22,7 +22,7 @@ export async function handleTransaction(
     throw new Error('Invalid config provided - exitConditions not provided');
   }
 
-const amount =  req.transaction.Payload.amount as unknown as number
+const amount =  transaction.Payload.amount as unknown as number
     
     
 
